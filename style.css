@@ -1,0 +1,42 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card > .img {
+  width: 200px;
+  height: 200px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card > h1 {
+  margin: 20px 0 0 0;
+}
+
+#najclark-com {
+  background-image: url("https://najclark.github.io/media/me.jpg");
+}
+
+#sclark-io {
+  background-image: url("https://www.gravatar.com/avatar/c9d64ed5cecf02286326b6932778adeb?s=500");
+}
